@@ -1,23 +1,17 @@
-  body {
-  background: radial-gradient(circle at top,
-    #1a0f3d,
-    #070416 70%
-  );
+body {
+  background: radial-gradient(circle at top, #1a0f3d, #070416 70%);
   color: white;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
-#Now{
-   display:none;
-  
+#Now {
+  display: none;
 }
- #Future{
-    display:none;
-   
+#Future {
+  display: none;
 }
- #completed{
-    display:none;
-    
+#completed {
+  display: none;
 }
 .panel {
   position: relative;
@@ -31,29 +25,27 @@
     rgba(10, 5, 30, 0.75)
   );
 
-  
   backdrop-filter: blur(18px);
 
- 
   border: 1px solid rgba(150, 120, 255, 0.35);
   box-shadow:
-    0 10px 40px rgba(0, 0, 0, 0.6),          
-    0 0 40px rgba(120, 80, 255, 0.25),       
-    inset 0 0 25px rgba(120, 80, 255, 0.15); 
-    width: 45%;
-    height: 780px;
-    margin: auto;
-    margin-top: 100px; 
-    color:  white;
+    0 10px 40px rgba(0, 0, 0, 0.6),
+    0 0 40px rgba(120, 80, 255, 0.25),
+    inset 0 0 25px rgba(120, 80, 255, 0.15);
+  width: 45%;
+  height: 780px;
+  margin: auto;
+  margin-top: 100px;
+  color: white;
 }
-.heading{
+.heading {
   border: none;
-   margin: 60px;
-   padding: 20px;
+  margin: 60px;
+  padding: 20px;
 }
-#taskbar{
+#taskbar {
   display: none;
 }
-#Added{
+#Added {
   display: none;
 }
